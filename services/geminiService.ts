@@ -8,7 +8,7 @@ export const analyzeSkinFromImage = async (base64Image: string): Promise<Analysi
     throw new Error("API Key not found");
   }
 
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
   const cleanBase64 = base64Image.replace(/^data:image\/[a-z]+;base64,/, "");
 
