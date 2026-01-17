@@ -1,0 +1,7 @@
+{
+  "name": "Eucerin Skin AI",
+  "description": "Analizador de piel inteligente impulsado por IA para Eucerin. Detecta tipos de piel (grasa, seca, mixta) en tiempo real mediante la cámara.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
